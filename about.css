@@ -1,0 +1,125 @@
+/* 
+    About section
+    Prabhanshu Bhowal 
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.about-faq-container{
+    font-family: 'Poppins', sans-serif;
+}
+.about-faq-container #about{    
+    margin: 10px;
+    text-align: center;
+    font-weight: 400 ;
+    font-size: 40px;    
+    color: #000000;
+    font-family: 'Saira Stencil One', cursive;
+}
+.about-faq-container .span{
+    color: #1E5EE5;
+    font-family: 'Saira Stencil One', cursive;
+}
+.about-faq-container img{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: auto;
+}
+.about-faq-container .info{
+    width: 80vw;
+    margin: 20px auto 10px auto;
+    font-size: 15px;  
+}
+.about-faq-container #headname{    
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 700 ;
+    font-size: 35px;    
+    color: #000000;
+}
+.about-faq-container #tagline{
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: #2C2D2D;
+}
+.about-faq-container .container{
+    width: 80vw;
+    height: max-content;
+    margin: auto;
+    margin-top: 25px;
+    border: 0.5px solid black;
+    border-bottom: none;
+}
+.about-faq-container .ques{
+    height: auto;
+    color: #000000;
+    padding: 10px;
+    border-bottom: 0.5px solid black;
+}
+.about-faq-container .ans{
+    height: auto;
+    padding: 5px;
+    color: #2C2D2D;
+}
+.about-faq-container .show{
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    color: white;
+    position: absolute; 
+    right: 11%;
+    border: 0;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.about-faq-container #more{
+    width: 300px;
+    max-width: 60%;
+    margin: 30px auto 30px auto;    
+    background-color: #403595;
+    color: #ffffff;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+.about-faq-container .banner{
+    max-width: 100%;
+    height: auto;    
+    padding: 0vh 12vw;
+    background-color: #403595;
+    display : flex;
+}
+@media (max-width: 600px) {
+    .about-faq-container .banner {
+        flex-direction: column;
+    }
+}
+.about-faq-container .cards{
+    width: 250px;
+    height: 180px;
+    margin:  30px auto 30px auto;
+    background-color: #ffffff;
+    font-size: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    border: 2px solid #403595;
+    color: #000000;
+}
+.about-faq-container .icons{
+    margin: 6px 2px;
+    width: 40px;
+    height: 40px;
+}
+.about-faq-container .attribute{
+    font-weight:600;
+    margin-top: 5px;
+}
+.about-faq-container .description{
+    margin: 7px 0px;    
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
